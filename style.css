@@ -1,0 +1,117 @@
+.cantainer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 600px 400px;
+    
+}
+.d1
+{
+    grid-column: span 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 0.5px solid rgb(189, 186, 186);
+    border-width: 0px 0px 1px 0px ;
+    box-shadow: 1px 1px 5px rgb(139, 137, 137);
+}
+h1
+{
+    color: rgb(247, 0, 144);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+span
+{
+    color: rgb(12, 47, 204);
+}
+nav
+{
+    display: flex;
+    justify-content: end;
+    margin-top: -50px;
+    margin-right: 80px;
+    
+   
+    
+    
+}
+a
+{
+    text-decoration: none;
+    margin :0px 10px;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: 700;
+    color: rgb(247, 0, 144); ;
+}
+a:hover{
+    color: rgb(12, 47, 204); 
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+
+.d2
+{
+    display: flex;
+    grid-column: span 2;
+    flex-direction: column;
+    background-image: linear-gradient(to right ,rgb(229, 143, 193),rgb(102, 122, 211));
+
+}
+.welcome
+{
+    position: relative;
+    top: 30%;
+    left: 15%;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  rgb(12, 47, 204);
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+    
+}
+img
+{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    top: -10%;
+    left: 70%;
+    border: 5px solid white;
+    border-width: 0px 0px 5px 0px;
+    padding-right: 30px;
+    filter: drop-shadow(1px 1px 5px black);
+  
+}
+.d3
+{
+    background: rgb(102, 122, 211);
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px ;
+    font-weight: 600;
+    align-items: center;
+}
+h2{
+   color: rgb(247, 0, 144); 
+   text-shadow: 0px 0px 2px black;
+   text-decoration: underline;
+   
+}
+p{
+    margin-top: 70px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 1px black;
+}
+.d4
+{   
+    background: rgb(229, 143, 193);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px ;
+    font-weight: 600;
+    align-items: center;   
+}
+#fact{
+    color: rgb(12, 47, 204);
+}
